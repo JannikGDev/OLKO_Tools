@@ -1,0 +1,20 @@
+{
+  "name": "com.olko.tools",
+  "version": "1.0.0",
+  "displayName": "OLKO Tools",
+  "description": "This is a package for common scripts and system in unity. Made by OLKO.",
+  "unity": "2020.3",
+  "unityRelease": "15f1",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "keywords": [
+    "Tools"
+  ],
+  "author": {
+    "name": "OLKO",
+    "email": "sodacookiedev@gmail.com",
+    "url": ""
+  },
+  "type": "tool"
+}

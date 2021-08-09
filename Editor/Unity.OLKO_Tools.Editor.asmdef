@@ -1,0 +1,16 @@
+{
+    "name": "Unity.OLKO_Tools.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Unity.OLKO_Tools"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
