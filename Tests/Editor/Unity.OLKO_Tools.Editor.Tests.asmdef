@@ -2,7 +2,9 @@
     "name": "Unity.OLKO_Tools.Editor.Tests",
     "rootNamespace": "",
     "references": [],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

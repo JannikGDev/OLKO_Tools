@@ -1,17 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(Text))]
-public class ActionChangeText : MonoBehaviour
+namespace Tests.Runtime.EventSystemTest
 {
-    [SerializeField]
-    [TextArea]
-    private string TextToChangeTo;
-
-    public void ChangeText()
+    [RequireComponent(typeof(Text))]
+    public class ActionChangeText : MonoBehaviour
     {
-        this.GetComponent<Text>().text = TextToChangeTo;
+        [SerializeField]
+        [TextArea]
+        private string TextToChangeTo;
+
+        public void ChangeText()
+        {
+            this.GetComponent<Text>().text = TextToChangeTo;
+        }
     }
 }
