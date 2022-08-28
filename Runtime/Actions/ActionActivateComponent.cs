@@ -1,3 +1,4 @@
+using SOVariables;
 using UnityEngine;
 
 namespace Actions
@@ -9,11 +10,11 @@ namespace Actions
         
         [Tooltip("Sets whether the target should be activated (true) or deactivated (false)")]
         [SerializeField]
-        bool activate = true;
+        BoolVariable activate;
 
         public void Action_ActivateObject()
         {
-            Action_ActivateObject(activate);
+            Action_ActivateObject(activate.Value);
         }
 
         public void Action_ActivateObject(bool activate)

@@ -1,7 +1,9 @@
 {
     "name": "Unity.OLKO_Tools.Editor.Tests",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "GUID:ccf84cebeeb769c4aad7b4a7a6db7000"
+    ],
     "includePlatforms": [
         "Editor"
     ],

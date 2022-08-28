@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace SOVariables
 {
+    [Serializable]
     [CreateAssetMenu(fileName = "BoolValue", menuName = "DataObjects/BoolValue")]
     public class BoolValue : ValueObject, IObservableValue
     {
